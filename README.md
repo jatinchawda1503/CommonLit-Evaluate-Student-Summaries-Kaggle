@@ -21,22 +21,24 @@ The dataset for this competition consists of approximately 24,000 summaries crea
 
 Here is an overview of the files and fields in the dataset:
 
-summaries_train.csv: This file contains the summaries in the training set.
+**summaries_train.csv:** This file contains the summaries in the training set.
 
-  student_id: The unique ID of the student writer.
-  prompt_id: The ID of the prompt associated with the summary, linking to the prompt file.
-  text: The full text of the student's summary.
-  content: The content score for the summary (the first target).
-  wording: The wording score for the summary (the second target).
-  summaries_test.csv: This file contains the summaries in the test set, similar to summaries_train.csv. However, it lacks the content and wording fields.
+  1. **student_id:** The unique ID of the student writer.
+  2. **prompt_id:** The ID of the prompt associated with the summary, linking to the prompt file.
+  3. **text:** The full text of the student's summary.
+  4. **content:** The content score for the summary (the first target).
+  5. **wording:** The wording score for the summary (the second target).
+  
+**summaries_test.csv:** This file contains the summaries in the test set, similar to summaries_train.csv. However, it lacks the content and wording fields.
 
-prompts_train.csv: This file provides information about the prompts used for training.
+**prompts_train.csv:** This file provides information about the prompts used for training.
 
-  prompt_id: The unique ID of the prompt, linking to the associated summaries and prompt text.
-  prompt_question: The specific question posed to students for summarization.
-  prompt_title: A brief title for the prompt.
-  prompt_text: The complete text of the prompt.
-  prompts_test.csv: This file is similar to prompts_train.csv but for the test set. It lacks the prompt_id field and contains only an example of the prompts used for testing. The complete test set includes a larger number of prompts, and the train/test splits have     distinct prompts.
+  1. **prompt_id:** The unique ID of the prompt, linking to the associated summaries and prompt text.
+  2. **prompt_question:** The specific question posed to students for summarization.
+  3. **prompt_title:** A brief title for the prompt.
+  4. **prompt_text:** The complete text of the prompt.
+  
+**prompts_test.csv:** This file is similar to prompts_train.csv but for the test set. It lacks the prompt_id field and contains only an example of the prompts used for testing. The complete test set includes a larger number of prompts, and the train/test splits have     distinct prompts.
 
 
 ## Submission
