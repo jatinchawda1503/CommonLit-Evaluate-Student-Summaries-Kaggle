@@ -43,4 +43,4 @@ Here is an overview of the files and fields in the dataset:
 
 ## Submission
 Submissions in the competition are evaluated using the MCRMSE (mean columnwise root mean squared error) metric, which calculates the average root mean squared error between the actual and predicted values across different target columns in the dataset.
-\textrm{MCRMSE} = \frac{1}{N_{t}}\sum_{j=1}^{N_{t}}\left(\frac{1}{n} \sum_{i=1}^{n} (y_{ij} - \hat{y}_{ij})^2\right)^{1/2}
+$$\textrm{MCRMSE} = \frac{1}{N_{t}}\sum_{j=1}^{N_{t}}\left(\frac{1}{n} \sum_{i=1}^{n} (y_{ij} - \hat{y}_{ij})^2\right)^{1/2}$$
